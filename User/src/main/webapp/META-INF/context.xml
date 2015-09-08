@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context path="/User">
+  <Resource driverClassName="com.mysql.jdbc.Driver"
+            maxActive="4"
+            maxIdle="2"
+            maxWait="5000"
+            name="MySQL"
+            username="root"
+            password=""
+            type="javax.sql.DataSource"
+            url="jdbc:mysql://localhost:3306/users"
+            validationQuery="SELECT 1">
+    </Resource>
+</Context>
